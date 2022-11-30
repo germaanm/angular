@@ -1,0 +1,29 @@
+###
+
+GET http://localhost:3000/api/reservar
+
+###
+POST http://localhost:3000/api/reservar
+Content-Type: application/json
+
+{
+        "IdReserva": "3",
+        "fecha": "2022-12-01T10:41",
+        "IdServicio": "3",
+        "tittle": "Mantenimiento",
+        "informacion": "Servicio de mantenimiento para refigerador"
+}
+###
+
+GET http://localhost:3000/api/reservar/6387d4fc3638f35420689720
+
+###
+DELETE http://localhost:3000/api/reservar/6387bfc3e80f90bf23e1a310
+
+###
+PUT http://localhost:3000/api/reservar/6387d4fc3638f35420689720
+Content-Type: application/json
+
+{
+        "informacion": "Servicio de mantenimiento para centro de lavado"
+}

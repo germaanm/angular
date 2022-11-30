@@ -1,0 +1,15 @@
+[{
+        "IdReserva": "1",
+        "fecha": "2022-12-01T10:41",
+        "IdServicio": "1",
+        "tittle": "Instalación",
+        "Informacion": "Servicio de instalación para refrigerador"
+    },
+    {
+        "IdReserva": "2",
+        "fecha": "2022-12-01T10:41",
+        "IdServicio": "1",
+        "tittle": "Instalación",
+        "Informacion": "Servicio de instalación para lavadora"
+    }
+]
