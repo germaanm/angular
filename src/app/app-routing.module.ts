@@ -12,7 +12,7 @@ import { ReservacionComponent } from './Components/reservacion/reservacion.compo
 
 const routes: Routes = [
   {path: '', component: HomePageComponent},
-  {path: 'servicos', component: ServiciosComponent},
+  {path: 'servicios', component: ServiciosComponent},
   {path: 'inicio', component: InicioComponent},
   {path: 'pago', component: PagoComponent},
   {path: 'registro', component: RegistroComponent},
