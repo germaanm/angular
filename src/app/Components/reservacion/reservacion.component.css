@@ -1,0 +1,47 @@
+.reservacion-container{
+    padding:                        200px 0;
+}
+.reservacion{
+    height:                         auto;
+    border:                         2px solid #DDDDDD;
+    text-align:                     center;
+    padding:                        140px 0 70px 0;
+}
+.reservacion h2{
+    text-transform:                 uppercase;
+    font-weight:                    400;
+    font-size:                      32px;   
+    margin-bottom:                  100px; 
+}
+.reservacion-info{
+    background:                     #D9D9D9;
+    width:                          80%;
+    margin:                         0 auto;
+    display:                        flex;
+    justify-content:                space-between;
+    margin-bottom:                  15px;
+    padding:                        10px 10px;
+}
+.reservacion-info h3{
+    font-weight:                    400;
+    font-size:                      20px;
+    color:                          black;
+    margin:                         0 0!important;
+}
+.reservacion-tipo{
+    font-style:                     italic;
+}
+.confirmar{
+    text-decoration:                none;
+    color:                          black;
+    background:                     #72DFF8;
+    padding:                        20px 40px;
+    border-radius:                  50px;
+    font-size:                      38px;
+    text-transform:                 uppercase;
+    margin-top:                     100px;
+    display:                        inline-block;
+}
+.confirmar:hover{
+    color:                          white;
+}

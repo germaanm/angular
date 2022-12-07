@@ -1,0 +1,40 @@
+ /* SERVICIOS  */
+.servicios-container{
+    padding:                        200px 0;
+}
+.servicios{
+    display:                        flex;
+    justify-content:                space-around;
+}
+.servicio{
+    text-align:                     center;
+    border-radius:                  25px;
+    padding-bottom:                 40px;
+}
+.servicio h2{
+    font-style:                     italic;
+    font-weight:                    400;
+    font-size:                      20px;
+    text-transform:                 uppercase;
+}
+.servicio h3{
+    font-weight:                    400;
+    font-size:                      16px;
+    margin-bottom:                  100px;
+}
+.servicio a{
+    text-decoration:                none;
+    background:                     #649DFF;
+    padding:                        20px 40px;
+    border-radius:                  50px;
+    font-style:                     italic;
+    font-weight:                    400;
+    font-size:                      20px;
+    color:                          black;
+}
+.servicio:hover{
+    background:                     #E0E7EC;
+}
+.servicio a:hover{
+    background:                     #72DFF8;
+}
