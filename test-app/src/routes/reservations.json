@@ -7,9 +7,37 @@
     },
     {
         "IdReserva": "2",
-        "fecha": "2022-12-01T10:41",
+        "fecha": "2022-12-08T08:42",
+        "IdServicio": "2",
+        "tittle": "reparación",
+        "Informacion": "Servicio de reparación para lavadora"
+    },
+    {
+        "IdReserva": "3",
+        "fecha": "2022-12-05T11:34",
+        "IdServicio": "3",
+        "tittle": "mantenimiento",
+        "Informacion": "Servicio de mantenimiento para aire acondicionado"
+    },
+    {
+        "IdReserva": "4",
+        "fecha": "2022-12-02T12:32",
+        "IdServicio": "2",
+        "tittle": "reparación",
+        "Informacion": "Servicio de reparación para refrigerador"
+    },
+    {
+        "IdReserva": "5",
+        "fecha": "2022-12-01T04:55",
         "IdServicio": "1",
-        "tittle": "Instalación",
-        "Informacion": "Servicio de instalación para lavadora"
+        "tittle": "instalación",
+        "Informacion": "Servicio de instalación para aire acondicionado"
+    },
+    {
+        "IdReserva": "6",
+        "fecha": "2022-12-03T13:12",
+        "IdServicio": "3",
+        "tittle": "mantenimiento",
+        "Informacion": "Servicio de mantenimiento para aire acondicionado"
     }
 ]

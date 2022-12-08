@@ -1,7 +1,6 @@
 const { Router } = require('express');
 const router = Router();
 
-const reservas = require('./reservations.json');
 const reservacionesController = require('../controllers/reservacionesController')
 
 router.get('/', reservacionesController.getReservations);

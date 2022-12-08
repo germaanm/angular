@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
@@ -13,6 +13,7 @@ import { InicioComponent } from './Components/inicio/inicio.component';
 import { RegistroComponent } from './Components/registro/registro.component';
 import { ReservacionComponent } from './Components/reservacion/reservacion.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { ContactoComponent } from './Components/contacto/contacto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

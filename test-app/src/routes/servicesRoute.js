@@ -1,18 +1,9 @@
 const { Router } = require('express');
 const router = Router();
 
-const servicios = require('./services.json');
+const serviciosController = require('../controllers/serviciosController');
 
-router.get('/', (req, res) => {
-    res.json(servicios);
-});
+router.get('/', serviciosController.getServices);
+//router.post('/', serviciosController.createService);
 
-router.get('/:id', (req, res) => {
-    const { id } = req.params;
-    servicios.forEach(servicio => {
-        if (servicio.id == id) {
-            res.json(servicio);
-        }
-    })
-});
 module.exports = router;

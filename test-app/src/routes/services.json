@@ -1,13 +1,16 @@
 [{
         "id": "1",
-        "tittle": "Instalación"
+        "tittle": "Instalación",
+        "informacion": "Instalación de electrodomesticos"
     },
     {
         "id": "2",
-        "tittle": "Reparación"
+        "tittle": "Reparación",
+        "informacion": "reparación de electrodomesticos"
     },
     {
         "id": "3",
-        "tittle": "Mantenimiento"
+        "tittle": "Mantenimiento",
+        "informacion": "mantenimiento de electrodomesticos"
     }
 ]
